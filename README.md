@@ -26,3 +26,4 @@ $KAFKA_HOME/bin/kafka-topics.sh --create\
   5. Ingresar a localhost:5000
 
  Nota: Los codigos se crearon en base a lo visto en ayudantía
+       Los valores del formulario no deben incluir letras Ñ
