@@ -1,5 +1,7 @@
 # SD-T2
 
+Se debe tener la carpeta kafka_2.13-2.8.0 con su contenido o correr kafka_install.sh
+
 Configuracion topico de ordenes y resumen (fijarse que KAFKA_HOME.sh apunte a la ruta de la carpeta de kafka):
 
 $KAFKA_HOME/bin/kafka-topics.sh --create\
@@ -16,7 +18,6 @@ $KAFKA_HOME/bin/kafka-topics.sh --create\
  --config retention.ms=1080000 \
  --topic resumen
  
- 
  Pasos a seguir para correr el software:
   1. Correr zookeeper_run.sh
   2. Correr kafka_run.sh
@@ -24,4 +25,4 @@ $KAFKA_HOME/bin/kafka-topics.sh --create\
   4. Correr aplicación flask
   5. Ingresar a localhost:5000
 
- 
+ Nota: Los codigos se crearon en base a lo visto en ayudantía
