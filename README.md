@@ -1,6 +1,6 @@
 # SD-T2
 
-Se debe tener la carpeta kafka_2.13-2.8.0 con su contenido o correr kafka_install.sh
+Se debe tener la carpeta kafka_2.13-2.8.0 con su contenido
 
 Configuracion topico de ordenes y resumen (fijarse que KAFKA_HOME.sh apunte a la ruta de la carpeta de kafka):
 
